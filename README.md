@@ -14,41 +14,6 @@ Predicting molecular properties is crucial in various fields, including drug dis
 *   Includes training, evaluation, and prediction functionalities.
 *   Includes example of how to use the trained model to predict the property of any molecule.
 
-## Installation
-
-1.  **Clone the repository:**
-
-    ```bash
-    git clone [https://github.com/](https://github.com/)<your_username>/<your_repository_name>.git
-    cd <your_repository_name>
-    ```
-
-2.  **Create a virtual environment (recommended):**
-
-    ```bash
-    python3 -m venv myenv       # Create a virtual environment named 'myenv'
-    source myenv/bin/activate  # Activate the environment (Linux/macOS)
-    myenv\Scripts\activate     # Activate the environment (Windows)
-    ```
-
-3.  **Install dependencies:**
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-    The `requirements.txt` file should contain the following:
-
-    ```
-    deepchem
-    transformers
-    torch
-    scikit-learn
-    rdkit-pypi
-    pandas
-    numpy
-    ```
-
 ## Usage
 
 1.  **Prepare your data:**
